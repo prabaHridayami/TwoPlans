@@ -63,17 +63,8 @@ public class RecyclerActivity extends AppCompatActivity implements NavigationVie
                 Toast.makeText(this, "This is Profil",Toast.LENGTH_SHORT).show();
                 break;
             case (R.id.navigation3):
-                Toast.makeText(this, "This is Daftar",Toast.LENGTH_SHORT).show();
-                break;
-            case (R.id.navigation4):
-                Toast.makeText(this, "This is Setting",Toast.LENGTH_SHORT).show();
-                break;
-            case (R.id.navigation5):
                 Toast.makeText(this, "This is About",Toast.LENGTH_SHORT).show();
                 break;
-            default:
-                break;
-
         }
 
         return false;
