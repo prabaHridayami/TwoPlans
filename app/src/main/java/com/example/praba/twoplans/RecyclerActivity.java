@@ -57,7 +57,7 @@ public class RecyclerActivity extends AppCompatActivity implements NavigationVie
 
         switch (id){
             case (R.id.navigation1):
-                Toast.makeText(this, "This is beranda",Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "This is Home",Toast.LENGTH_SHORT).show();
                 break;
             case (R.id.navigation2):
                 Toast.makeText(this, "This is Profil",Toast.LENGTH_SHORT).show();

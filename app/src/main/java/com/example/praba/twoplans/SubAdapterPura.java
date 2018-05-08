@@ -20,12 +20,12 @@ public class SubAdapterPura extends RecyclerView.Adapter<SubAdapterPura.ViewHold
             R.drawable.puralempuyang,
             R.drawable.purabesakih,
             R.drawable.puraberatan};
-    String detail [] = {"des 1",
-            "des 2",
-            "des 3",
-            "des 4",
-            "des 5",
-            "des 6"};
+    String detail [] = {"Pura Uluwatu terletak terletak di desa Pecatu, kecamatan Kuta, Badung berada di tebing dengan ketinggian sekitar 97 meter. Pura Uluwatu termasuk dalam pura Sad Kahyangan sebagai penyangga 9 mata angin, saat sore hari di Pura Uluwatu selalu menampilkan pertunjukan tari kecak.",
+            "Pura Tanah Lot terletak di Beraban, Kediri, Tabana, Bali sekitar 300 m dari bibir pantai. Waktu yang tepat untuk berkunjung ketika air laut sedang surut, jika sedang pasang batu karang yang menopang pura tersebut akan tergenang dengan air dan tidak bisa mendekat ke pura. Pura Tanah lot memiliki gua yang ada di dalamnya ada ular – ular belang. Pura Tanah Lot merupakan bagian dari Pura Kahyangan Jagat di Bali, sebagai tempat memuja dewa penjaga laut.",
+            "Pura Tirta Empul terletak di tampak siring, Gianyar, Bali. Di bagian tengah dapat melihat kolam yang memiliki 30 pancuran, kolam ini menjadi kolam suci yang digunakan sebagai tempat mandi untuk mensucikan diri. Pura ini juga memiliki istana presiden Indonesia Ir. Soekarno.",
+            "Pura Lempuyang terletakak di Kabupaten Karangasem. Pura Lempuyang memiliki latar belakang Gunung Agung yang memukau dan sebagai tempat Pura Sad Kahyangan Lempuyang Luhur kemurnian alamnya, terutama kawasan hutan, tidak terjamah sehingga keindahan lembah, serta pesisir Bali Timur, terlihat menakjubkan. Pohon-pohon tropis tumbuh subur, cocok menjadi paru-paru Pulau Dewata.",
+            "Pura Besakih adalah pura terbesar di Bali terletak di ketinggian 1000 mdpl yang berlokasi di lereng Gunung Agung.",
+            "Pura Ulun Danu Beratan terletak di Bedugul, desa Candi Kuning, Tabanan, Bali. Pura Ulun Danu Beratan adalah pura tempat pemujaan Dewi Danu (dewi kemakmuran) di sebelahnya terdapat danau beratan yang memiliki pemandangan indah dengan kedalaman sekitar 23 m."};
 
     Context mContext;
     LayoutInflater layoutInflater;

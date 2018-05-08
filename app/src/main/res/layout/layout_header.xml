@@ -23,7 +23,7 @@
             android:layout_gravity="bottom"
             android:layout_marginBottom="5dp"
             android:layout_marginLeft="16dp"
-            android:text="Two-Plan"
+            android:text="Two-Plans"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textStyle="bold"
             />

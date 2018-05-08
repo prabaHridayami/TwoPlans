@@ -19,11 +19,11 @@ public class SubAdapterPantai extends RecyclerView.Adapter<SubAdapterPantai.View
             R.drawable.pantaibiastugel,
             R.drawable.pantaidreamland,
             R.drawable.pantaiangelbillabong};
-    String detail [] = {"des 1",
-            "des 2",
-            "des 3",
-            "des 4",
-            "des 5"};
+    String detail [] = {"Pantai Sanur terletak di Desa Sanur, Denpasar, Bali. Pantai ini menyajikan keindahan matahari terbit (sunrise) yang mempesona saat pagi hari. Pantai ini mempunyai hamparan pasir putih yang membentang membentuk gugusan pantai yang elok dengan gelombang air laut tidak begitu besar dan keindahan batu karang yang membentang berwarna-warni. Pantai ini cocok untuk berenang, bermain kano, memancing.",
+            "Pantai Pandawa terletak di Desa Kutuh, Kuta selatan, Kabupaten Badung, Bali. Pantai ini diapit oleh tebing yang sangat besar dan memiliki 5 patung yang diberi nama Dharma Wangsa, Bima, Arjuna, Nakula, dan Sadewa. Pantai ini cocok untuk snorkeling, main kano, dan budidaya rumput laut.",
+            "Pantai Bias Tugel terletak di Desa Padangbai, Kecamatan Manggis, Karangasem, Bali. Pantai ini mempunyai keunikan pasirnya yang tergabung antara pasir hitam dan pasir putih, batu karang di kanan kirinya, gulungan ombak dengan gradasi biru super jernih serta suasanya yang sunyi, cocok untuk kegiatan snorkeling ataupun diving.",
+            "Pantai Dreamland terletak di Pecatu, sebelah selatan Bali. Pantai ini dikelilingi tebing-tebing yang menjulang tinggi dan batu karang yang lumayan besar. Pantai ini memiliki pasir putih bersih dengan karang curam cocok untuk menikmati matahari tenggelam (sunset) dan ombaknya yang tinggi cocok untuk penggemar olahraga selancar air (surfing).",
+            "Pantai Angel Bilabong terletak di Desa Sakti, Nusapenida, Klungkung, Bali. Pantai ini diapit oleh tebing dan langsung terhubung ke lautan lepas dan memiliki air laut yang sangat jernih. Pantai ini cocok untuk berenang jika air laut sedang surut dan melihat matahari terbenam (sunset)."};
 
     Context mContext;
     LayoutInflater layoutInflater;
