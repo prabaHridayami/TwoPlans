@@ -1,5 +1,6 @@
 package com.example.praba.twoplans;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
@@ -17,10 +18,10 @@ import android.widget.Toast;
 import static android.icu.lang.UCharacter.GraphemeClusterBreak.T;
 
 public class RecyclerActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
-        private static final String TAG = "RecyclerActivity";
+    private static final String TAG = "RecyclerActivity";
     RecyclerView list;
-//    private Toolbar toolbar;
-//    private NavigationView navigationView;
+//private Toolbar toolbar;
+//private NavigationView navigationView;
     private DrawerLayout drawerLayout;
     private ActionBarDrawerToggle mToogle;
 
@@ -57,7 +58,8 @@ public class RecyclerActivity extends AppCompatActivity implements NavigationVie
 
         switch (id){
             case (R.id.navigation1):
-                Toast.makeText(this, "This is Home",Toast.LENGTH_SHORT).show();
+                Intent i =new Intent(getApplicationContext(),RecyclerActivity.class);
+                startActivity(i);
                 break;
             case (R.id.navigation2):
                 Toast.makeText(this, "This is Profil",Toast.LENGTH_SHORT).show();
